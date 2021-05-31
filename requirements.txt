@@ -1,0 +1,7 @@
+tqdm
+numpy
+pytorch-lightning==0.9.0  
+sacrebleu
+transformers==3.4.0 
+unidecode
+networkx
