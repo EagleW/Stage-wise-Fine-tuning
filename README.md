@@ -18,7 +18,8 @@ Table of Contents
 <p align="center">
   <img src="https://eaglew.github.io/images/stage.png?raw=true" alt="Photo" style="width: 100%;"/>
 </p>
-This project is based on the framework [HuggingFace](https://huggingface.co/transformers/). 
+
+This project is based on the framework [HuggingFace Transformers](https://huggingface.co/transformers/). 
 
 ## Requirements
 
