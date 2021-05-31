@@ -34,7 +34,7 @@ This project is based on the framework [HuggingFace Transformers](https://huggin
 conda create -n stage_fine python=3.8.5
 
 # Install pytorch with cuda (optional)
-conda install pytorch==1.7.1  cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.7.1  cudatoolkit=11.0 -c pytorch
 
 # Install python dependencies
 pip install -r requirements.txt
