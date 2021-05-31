@@ -57,7 +57,7 @@ This repository contains data used for the Wikipedia fine-tuning stage for paper
 You can download preprocessed [WebNLG with Position](https://drive.google.com/file/d/1PKXKuh9Q2b2bEOPX2r4vlC9gnrlo_Hfk/view?usp=sharing) and [Wikipedia Pre-train Pairs with Position](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing). Unzip them in the `src` folder.
 
 #### Preprocess by Yourself
-If you prefer preprocess by yourself, download [WebNLG 2017](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/webnlg_challenge_2017) and [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing). Put them under `preprocess` folder. Unzip `total.zip` which contains [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing).
+If you prefer to preprocess by yourself, download [WebNLG 2017](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/webnlg_challenge_2017) and [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing). Put them under the `preprocess` folder. Unzip `total.zip` which contains [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing).
 
 To get [WebNLG with Position](https://drive.google.com/file/d/1PKXKuh9Q2b2bEOPX2r4vlC9gnrlo_Hfk/view?usp=sharing). Run `webnlg_tree.py` under this folder:
 ```
@@ -74,13 +74,13 @@ Copy `val.*` and `test.*` from `pos` folder to `wiki_pos` folder. Move `pos` fol
 ### Finetuning
 
 #### Finetuning with 2-stage pre-training
-You can finetune your own model by running `finetune_*_all.sh` in `src` folder. For example, if you want to test t5_large, you can run
+You can finetune your model by running `finetune_*_all.sh` in the `src` folder. For example, if you want to test t5_large, you can run
 ```
 ./finetune_t5_large_all.sh 
 ```
 
 #### Finetuning without Wikipedia pre-training
-Similarly, you can finetune your own model by running `finetune_*_alone.sh` in `src` folder. For example, if you want to test t5_large, you can run
+Similarly, you can finetune your own model by running `finetune_*_alone.sh` in the `src` folder. For example, if you want to test t5_large, you can run
 ```
 ./finetune_t5_large_alone.sh 
 ```
@@ -88,11 +88,11 @@ Similarly, you can finetune your own model by running `finetune_*_alone.sh` in `
 The result will be under `*_results/test_generations.txt`.
 
 ### Decoding with Our Model
-Our model can be downloaded [here](http://159.89.180.81/demo/stage/final_model_results.tar.xz). After you extract the file under `src` folder, you can run 
+Our model can be downloaded [here](http://159.89.180.81/demo/stage/final_model_results.tar.xz). After you extract the file under the `src` folder, you can run 
 ```
 ./test_t5.sh 
 ```
-to get result.
+to get the result.
 
 The result will be under `*t5_large_pos_test_results/test_generations.txt`.
 
