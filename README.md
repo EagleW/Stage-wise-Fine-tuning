@@ -48,7 +48,7 @@ For this paper, we test our model on the original version of [English WebNLG 201
 
 - [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing)
 
-This repository contains data used for the Wikipedia fine-tuning stage for paper Stage-wise Fine-tuning for Graph-to-Text Generation. The preprocessed Wikipedia Pre-train Pairs with position information for this model can be downloaded [here](https://drive.google.com/file/d/1qA6A2YoW9bgC5WD3YpWEiPagsjclkxVA/view?usp=sharing).
+This repository contains data used for the Wikipedia fine-tuning stage for paper Stage-wise Fine-tuning for Graph-to-Text Generation. The documentation for this dataset is [here](https://github.com/EagleW/Stage-wise-Fine-tuning/blob/main/Wikipedia%20Pre-train%20Pairs/README.md). The preprocessed Wikipedia Pre-train Pairs with position information for this model can be downloaded [here](https://drive.google.com/file/d/1qA6A2YoW9bgC5WD3YpWEiPagsjclkxVA/view?usp=sharing).
 
 ## Quickstart
 
@@ -86,7 +86,7 @@ Similarly, you can finetune your own model by running `finetune_*_alone.sh` in t
 ./finetune_t5_large_alone.sh 
 ```
 
-The result will be under `*_results/test_generations.txt`.
+You can modify hyperparameters such as batch size in those bash files. The result will be under `*_results/test_generations.txt`. 
 
 ### Decoding with Our Model
 Our model can be downloaded [here](http://159.89.180.81/demo/stage/final_model_results.tar.xz). After you extract the file under the `src` folder, you can run 
