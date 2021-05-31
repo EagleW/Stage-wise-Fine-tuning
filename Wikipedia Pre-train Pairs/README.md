@@ -1,7 +1,7 @@
 # Wikipedia Graph-to-Text Dataset
 
 ## Overview
-This repository contains 542,192 data pairs used for the Wikipedia fine-tuning stage for paper Stage-wise Fine-tuning for Graph-to-Text Generation. [[Dataset]](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing)
+This repository contains 542,192 data pairs used for the Wikipedia fine-tuning stage for this paper. [[Dataset]](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing)
 
 ## Dataset
 
