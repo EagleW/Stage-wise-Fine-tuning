@@ -42,11 +42,11 @@ pip install -r requirements.txt
 ```
 
 ### Data
-- [WebNLG 2017](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/webnlg_challenge_2017)
+#### [WebNLG 2017](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/webnlg_challenge_2017)
 
 For this paper, we test our model on the original version of [English WebNLG 2017](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/webnlg_challenge_2017). The preprocessed WebNLG data with position information for this model can be downloaded [here](https://drive.google.com/file/d/1PKXKuh9Q2b2bEOPX2r4vlC9gnrlo_Hfk/view?usp=sharing). 
 
-- [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing)
+#### [Wikipedia Pre-train Pairs](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing)
 
 This repository contains data used for the Wikipedia fine-tuning stage for paper Stage-wise Fine-tuning for Graph-to-Text Generation. The documentation for this dataset is [here](https://github.com/EagleW/Stage-wise-Fine-tuning/blob/main/Wikipedia%20Pre-train%20Pairs/README.md). The preprocessed Wikipedia Pre-train Pairs with position information for this model can be downloaded [here](https://drive.google.com/file/d/1qA6A2YoW9bgC5WD3YpWEiPagsjclkxVA/view?usp=sharing).
 
