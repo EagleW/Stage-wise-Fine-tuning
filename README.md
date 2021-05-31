@@ -95,7 +95,7 @@ Our model can be downloaded [here](http://159.89.180.81/demo/stage/final_model_r
 ```
 to get the result.
 
-The result will be under `*t5_large_pos_test_results/test_generations.txt`.
+The result will be under `t5_large_pos_test_results/test_generations.txt`.
 
 
 ## Evaluation
