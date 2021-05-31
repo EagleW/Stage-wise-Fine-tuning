@@ -123,7 +123,7 @@ bert-score -r evaluation/references/reference0 evaluation/references/reference1 
 
 #### Trained Model and Result
 
-Result from T5-large + Wiki + Position is [here](https://github.com/EagleW/Stage-wise-Fine-tuning/example/pos+wiki.txt).
+Result from T5-large + Wiki + Position is [here](https://raw.githubusercontent.com/EagleW/Stage-wise-Fine-tuning/main/evaluation/example/pos%2Bwiki.txt).
 
 <table style='font-size:80%'>
   <tr>
