@@ -133,5 +133,6 @@ dmypy.json
 .vscode/
 # ignore evaluation temp file
 bleu*.txt
-meteor-*.txt
+meteor*.txt
 team*.txt
+ter*.txt
