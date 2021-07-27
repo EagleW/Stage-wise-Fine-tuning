@@ -2,7 +2,7 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/stage-wise-fine-tuning-for-graph-to-text/data-to-text-generation-on-webnlg-full-1)](https://paperswithcode.com/sota/data-to-text-generation-on-webnlg-full-1?p=stage-wise-fine-tuning-for-graph-to-text)
 
-[Stage-wise Fine-tuning for Graph-to-Text Generation](https://arxiv.org/pdf/2105.08021.pdf)
+[Stage-wise Fine-tuning for Graph-to-Text Generation](https://aclanthology.org/2021.acl-srw.2.pdf)
 
 Accepted by the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing 2021 Student Research Workshop (ACL-IJCNLP 2021 SRW)
 
@@ -149,10 +149,19 @@ Result from T5-large + Wiki + Position is [here](https://raw.githubusercontent.c
 
 ## Citation
 ```
-@InProceedings{wang2021stage,
-  title={Stage-wise Fine-tuning for Graph-to-Text Generation},
-  author={Wang, Qingyun and Yavuz, Semih and Lin, Victoria and Ji, Heng and Rajani, Nazneen},
-  booktitle={Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing 2021 Student Research Workshop},
-  year={2021}
-}
+@inproceedings{wang-etal-2021-stage,
+    title = "Stage-wise Fine-tuning for Graph-to-Text Generation",
+    author = "Wang, Qingyun  and
+      Yavuz, Semih  and
+      Lin, Xi Victoria  and
+      Ji, Heng  and
+      Rajani, Nazneen",
+    booktitle = "Proceedings of the ACL-IJCNLP 2021 Student Research Workshop",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-srw.2",
+    pages = "16--22"
+
 ```
