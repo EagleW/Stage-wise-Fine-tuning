@@ -66,7 +66,7 @@ python webnlg_tree.py
 ```
 
 This will create `pos`. 
-To get [Wikipedia Pre-train Pairs with Position](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing). Run `webnlg_tree.py` under this folder:https://drive.google.com/file/d/1PKXKuh9Q2b2bEOPX2r4vlC9gnrlo_Hfk/view?usp=sharing. Run `webnlg_tree.py` under this folder:
+To get [Wikipedia Pre-train Pairs with Position](https://drive.google.com/file/d/18N8xgAftgoV7D03G643EDp1BfQXzPOTH/view?usp=sharing). Run `webnlg_tree.py` under this folder:
 ```
 python get_new_pretrained_pos.py
 ```
