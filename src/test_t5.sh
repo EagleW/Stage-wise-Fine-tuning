@@ -1,4 +1,4 @@
-python finetune_t5_test.py \
+python finetune_t5.py \
 --data_dir=pos \
 --gpus 1 \
 --learning_rate=3e-5 \
