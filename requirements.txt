@@ -5,3 +5,5 @@ sacrebleu
 transformers==3.4.0 
 unidecode
 networkx
+rouge-score
+GitPython
