@@ -109,6 +109,11 @@ Change `OUTPUT_FILE` in `run_eval_on_webnlg.sh` and run the following:
 ./run_eval_on_webnlg.sh
 ```
 
+### PARENT-SCORE
+For details about PARENT score, please check [PARENT folder](https://github.com/EagleW/Stage-wise-Fine-tuning/tree/main/parent-master).
+
+
+
 ### BERT-SCORE
 
 Install [Bert-Score](https://github.com/Tiiiger/bert_score) from pip by
