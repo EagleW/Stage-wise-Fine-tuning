@@ -127,6 +127,8 @@ Test your file
 bert-score -r evaluation/references/reference0 evaluation/references/reference1 evaluation/references/reference2 -c evaluation/example/pos+wiki.txt --lang en 
 ```
 
+If you have some questions about BERT-Score, please check this [issue](https://github.com/Tiiiger/bert_score/issues/85).
+
 #### Trained Model and Result
 
 Result from T5-large + Wiki + Position is [here](https://raw.githubusercontent.com/EagleW/Stage-wise-Fine-tuning/main/evaluation/example/pos%2Bwiki.txt).
